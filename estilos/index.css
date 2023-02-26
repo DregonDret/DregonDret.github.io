@@ -1,0 +1,90 @@
+
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+     
+    }
+    
+    header{
+      position: sticky;
+      top: 0;
+      background-color:  cyan;
+    }
+    nav ul{
+      display: flex;
+      justify-content: center;
+      list-style: none;      
+    }
+    nav ul li{
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 15px 20px;
+      background-color: rgb(209, 209, 209);
+    }
+    h1{
+      color: azure;
+      background-color: rgb(41, 21, 131);
+      text-align: center;
+    }
+    h2{
+      font-size: 2rem;
+      text-align: center;
+    }
+    h3{
+      font-size: 3rm;
+      text-align: center;
+    }
+    section#datos_personales{
+      background-color:cornflowerblue;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    section#datos_personales h1{
+      font-size: 3rem;
+    }
+    section#datos_personales h2{
+      font-size: 2rem;
+    }
+    .foto_Personal img{
+      width: 100px;
+      height: 200px;
+      
+    }
+    section#fortalezas{
+      background-color: rgb(100, 222, 238);
+    }
+    section#proyectos{
+      background-color: cornflowerblue;
+    }
+    .lista_de_proyectos{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      
+    }
+    .detalles_de_proyecto{
+      border: 5px solid rgb(100, 222, 238); 
+      width: 500px;
+      margin: 10px;
+      background-color: rgb(100, 222, 238);
+    }
+    .detalles_de_proyecto img{
+      width: 100%;
+    }
+    .detalles_de_proyecto video{
+      width: 100%;
+    }
+    section#contactos{
+      background-color: rgb(84, 136, 136);
+    }
+    form#formulario{
+      
+      text-align: center;
+    }
+    p#mandar{
+     font-size: 50px;
+    }
+    

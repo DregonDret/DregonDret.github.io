@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Gabrel Alejandro Urzagasti</title>
+    <link href="estilos/index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Mi CV y Porfolio</h1>
+        <nav>
+            <ul>              
+                <li><a href="#datos_personales">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contactos">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="datos_personales" class="foto_Personal">
+           <h1>Gabrel Alejandro Urzagasti</h1> 
+           <h2>Game-design de ecenario  y programador de videojuegos</h2>
+           <img src="./imagenes_proyectos/foto.jpeg" alt="foto" id="mifoto">
+        </section>
+        <section id="fortalezas">
+            <nav>
+                <h2>Conocimientos Programacion</h2>
+                <ul>
+                    <li>C++</li>
+                    <li>C# </li>
+                    <li>Java</li>
+                    <li>Leader</li>
+                    <li>BDF</li>
+                </ul>
+                <h2>Conocimientos fisicos</h2>
+                <ul>
+                    <li>Electricidad</li>
+                    <li>Soldadura</li>
+                    <li>Carpinteria</li>
+                    <li>Electronica</li>
+                </ul>
+            </nav>
+        </section>
+        <section id="proyectos">
+            <h2>proyectos realizados</h2>
+            <button type="button" id="cambio_ColorF">cambiar fondo</button>
+            <div class="lista_de_proyectos">
+                <div class="detalles_de_proyecto">
+                <h3>Proyecto 1 (AmiEnemigos)</h3>
+                
+                <img src="./imagenes_proyectos/Portada_AmiEnemigo.png" alt="imagen de la portada del juego">
+                
+                <p>Este juego fue echo en la Global Game Jam de enero de 2022</p>
+            </div>
+                <div class="detalles_de_proyecto">
+                    <h3>Gameplay</h4>
+                    <img src="./imagenes_proyectos/Dentro_del_juego_Amienemigo.png" alt="imagen del gameplay del juego">
+                    <p>Trata sobre un raton que debe ir dejandole comida al gato evitando ser golpeado
+                        por las garritas que dispara el mismo gato.
+                    </p>
+                </div>
+            <div>
+                <div class="detalles_de_proyecto">
+                <h3>Proyecto 2 (Militar y furioso)</h3>
+                <video width="400" height="200" controls>
+                    <source src="./videos/Militar-y-furioso-Game-Over.mp4" type="video/mp4">
+                </video>
+                <p>Este juego fue creado para presentacion de un trabajo practico final de primer año en el
+                    primer cuatrimestre de la carrera "TECNICATURA UNIVERSITARIA EN DISEÑO INTEGRAL DE VIDEOJUEGOS" todo
+                    esto fue echo en grupos de 5 integrantes para la materia de programacion orientada a objetos  este juego
+                    fue echo respetando las condiciones de programacion nesesarias para su aprobacion.
+                    El juego cuenta con 3 niveles con su respectiva dificultad en cada uno
+                </p>
+                </div>
+            </div>
+            <div>
+                <div class="detalles_de_proyecto">
+                <h3>proyecto 3 (Un hombre en el Bosque Muerto "En desarrollo")</h3>
+                <video width="400" height="200" controls>
+                    <source src="./videos/Un-Hombre-en-el-Bosque-Muerto.mp4" type="video/mp4">
+                </video>
+                <p>Este videojuego fue realizado para el primer año segundo cuatrimestre en la carrera 
+                    "TECNICATURA UNIVERSITARIA EN DISEÑO INTEGRAL DE VIDEOJUEGOS" para la materia de programacion de videojuegos 1.
+                   Para este juego se tuvo en cuenta el uso del motor Unity y usar los conocimientos tanto vistos en la carrera
+                   como tambien vistos de forma autodidacta.
+                   Trata sobre un hombre perdido el cual deve llegar a un estremo para salvarse de los peligros del Bosque
+                </p>
+                </div>
+            </div>
+           
+        </section>
+        <section id="contactos">
+            <h3>Contactos</h3>
+            <div>
+               
+                <h3>Puedes contactarme por mis medios</h3>
+                <h4>Correo:gabriel_13-2011@live.com </h4>
+                <h4>Celular: +54 3884442945</h4>
+                <h3>O mandame un Mensaje aqui</h3>
+                <form id="formulario">
+                    <div>
+                        <label>Nombre Completo </label>
+                        <input type="text" id="nombre" placeholder="Nombre y Apellido">
+                    </div>
+                    <div>
+                        <label>Asunto </label>
+                        <input type="text" id="Asunto" placeholder="Escribe el asunto">
+                    </div>
+                    <div>
+                        <label>Mensaje</label>
+                        <textarea name="mensaje" id="Men" cols="30" rows="8"></textarea>
+                    </div>
+                    <p id="mandar" class="parrafo">mandaremos tu mensaje</p>
+                    <button type="button" id="bot">Enviar</button>
+                    <script src="js/function.js"></script>
+                </form>
+
+            </div>
+          
+        </section>
+    </main>
+   <footer></footer>
+    
+</body>
+</html>
